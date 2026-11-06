@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Secret Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <p class="nav"><a href="index.html">← Legal</a> · <a href="terms.html">Terms of Use</a></p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: November 6, 2026</p>
+    <p>
+      This Privacy Policy describes how <strong>Secret Calculator</strong> (“the App”),
+      published by <strong>Nazar Kvetsen</strong> (“we”, “us”), handles information on your device.
+      The App is a local photo vault presented as a calculator.
+    </p>
+
+    <h2>1. Summary</h2>
+    <p>
+      Secret Calculator is designed to keep your vault content <strong>on your device</strong>.
+      We do not operate user accounts, cloud sync, or a backend that receives your photos, PIN, or vault files.
+      We do not sell your personal information.
+    </p>
+
+    <h2>2. Information stored on your device</h2>
+    <p>Depending on which features you use, the App may store the following <strong>locally</strong>:</p>
+    <ul>
+      <li><strong>Vault PIN and recovery-related secrets</strong> — stored in the iOS Keychain on your device.</li>
+      <li><strong>Photos, videos, and other vault media</strong> — stored in the App’s local sandbox via FileManager. Vault media is configured to be excluded from iCloud/device backups where the App applies that setting.</li>
+      <li><strong>App preferences</strong> — such as auto-lock timing, camouflage, Face Down Lock, and similar settings, typically via UserDefaults on the device.</li>
+      <li><strong>Break-in Report photos</strong> (optional) — if you enable Break-in Report, the front camera may capture a photo of someone who fails to unlock the vault; that photo is stored locally in the vault-related storage on your device.</li>
+      <li><strong>Encrypted vault backups</strong> (optional) — if you export a <code>.scbackup</code> file, you create an encrypted backup protected by your PIN. You choose where to save or share that file (for example via the system share sheet). We do not receive the backup.</li>
+    </ul>
+
+    <h2>3. Permissions the App may request</h2>
+    <ul>
+      <li><strong>Camera</strong> — used only when Break-in Report is enabled, to take a front-camera photo after failed unlock attempts.</li>
+      <li><strong>Face ID / biometrics</strong> — used to confirm it is you before resetting your vault PIN (and related secure actions the App documents on screen).</li>
+      <li><strong>Photo Library (add / export)</strong> — used when you choose to export vault files back to your device library.</li>
+      <li><strong>Motion / device orientation</strong> — used for optional Face Down Lock features that switch the visible UI when the device is placed face down.</li>
+    </ul>
+    <p>
+      These permissions process data on your device for the feature you enabled.
+      Granting a permission does not mean we transmit that data to our servers — we do not operate such servers for vault content.
+    </p>
+
+    <h2>4. What we do not collect</h2>
+    <ul>
+      <li>We do not require you to create an account.</li>
+      <li>We do not provide cloud sync of vault contents.</li>
+      <li>We do not use third-party analytics or advertising SDKs in the current version described by this policy.</li>
+      <li>We do not receive your PIN, Face ID data, or vault media on our systems.</li>
+    </ul>
+    <p>
+      If a future version adds in-app purchases, subscription management, analytics, or other third-party services,
+      this Privacy Policy will be updated to describe what those services process.
+    </p>
+
+    <h2>5. Sharing</h2>
+    <p>
+      We do not sell or rent your personal information.
+      Content you export or share yourself (for example a photo export or a <code>.scbackup</code> file)
+      leaves the App only through the destinations you choose on your device (Files, Messages, another app, etc.).
+    </p>
+    <p>
+      We may disclose information if required by law, but because vault content remains on your device and is not sent to us,
+      we typically would not have access to your vault media.
+    </p>
+
+    <h2>6. Data retention and deletion</h2>
+    <p>
+      Local vault data remains on your device until you delete it in the App or remove the App.
+      Uninstalling Secret Calculator deletes the App’s local sandbox data on that device.
+      Keychain items may follow iOS Keychain behavior for the App’s access group and device.
+      Encrypted backups you previously saved outside the App remain under your control until you delete them.
+    </p>
+
+    <h2>7. Children’s privacy</h2>
+    <p>
+      The App is not directed to children under 13 (or the equivalent minimum age in your jurisdiction).
+      We do not knowingly collect personal information from children.
+    </p>
+
+    <h2>8. Security</h2>
+    <p>
+      We use platform security features such as the Keychain for sensitive secrets and optional biometric confirmation for PIN reset.
+      Encrypted backups use modern cryptography with a key derived from your PIN.
+      No method of electronic storage is 100% secure; you are responsible for protecting your device passcode, vault PIN, and any backup files and passwords you create.
+    </p>
+
+    <h2>9. International users</h2>
+    <p>
+      The App processes information locally on your device.
+      If you move or restore a backup file across regions, that is under your control.
+    </p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time.
+      The “Last updated” date at the top will change when we do.
+      Continued use of the App after an update means you accept the revised policy.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p>
+      Questions about this Privacy Policy:<br />
+      <strong>Nazar Kvetsen</strong><br />
+      Email: <a href="mailto:calcxsupport@gmail.com">calcxsupport@gmail.com</a>
+    </p>
+  </main>
+</body>
+</html>
